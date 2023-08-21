@@ -1,7 +1,7 @@
 import React from "react"
 import './App.css';
 import { ThemeProvider, createTheme, CssBaseline, Container } from '@mui/material';
-import Nav from "./components/Nav"
+import Nav from "./components/NavBar"
 import AboutSection from "./components/AboutSection"
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
