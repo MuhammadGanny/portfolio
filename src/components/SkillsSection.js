@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Typography, List, ListItem, ListItemText, Divider } from '@mui/material';
+import '../index';
 
 const SkillsSection = () => {
   const skills = [
@@ -23,7 +24,7 @@ const SkillsSection = () => {
           Here are some of the skills I possess:
         </Typography>
         <Divider style={{ margin: '16px 0' }} />
-        < List >
+        < List className="list">
           {skills.map((skill, index) => (
             <ListItem key={index}>
               <ListItemText primary={skill} />
