@@ -1,5 +1,5 @@
 import React from "react"
-import './App.css';
+//import './App.css';
 import { ThemeProvider, createTheme, CssBaseline, Container } from '@mui/material';
 import Nav from "./components/NavBar"
 import AboutSection from "./components/AboutSection"
@@ -12,7 +12,7 @@ import SkillsSection from './components/SkillsSection';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#007bff', // Change the primary color
+      main: '#193b60', // Change the primary color
     },
     secondary: {
       main: '#ff6f00', // Change the secondary color
